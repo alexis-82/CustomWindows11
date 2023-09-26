@@ -1,0 +1,7 @@
+# Remove software in Powershell:
+
+PS> Get-AppxPackage -Name "Microsoft.WindowsStore" | Remove-AppxPackage
+
+or
+
+PS> Get-AppxPackage -Name "Microsoft.WindowsStore" -AllUsers | Remove-AppxPackage
